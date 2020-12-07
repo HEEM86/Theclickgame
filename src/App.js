@@ -18,8 +18,23 @@ class App extends Component {
   }
 
   componentDidMount(){
-    
+  this.setState({fruits:this.sortInfo(this.state.fruits)})
   }
+
+  sortInfo=(fruits) => {
+    let index = 11;
+    let temporary;
+    let random;
+    while(index > 0){
+      random=Math.floor(Math.random()*(index + 1))
+      temporary=fruits[index]
+      fruits[index]=fruits[random]
+      fruits[random]=temporary
+      index--
+    }
+    return fruits;
+  }
+
   saveHandleClick = id => {
     console.log("clicked")
     // let fruits = this.state.fruits;
@@ -27,7 +42,7 @@ class App extends Component {
   }
   // Map over this.state.fruits and render a fruitCard component for each fruit object
   render() {
-    console.log(this.state.fruits[0])
+    console.log(this.state.fruits)
     return () =>  (
       <Wrapper>
         <Title>Fruits List</Title>
