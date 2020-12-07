@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "image": "../image/appleimage.jpg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "image": "../image/banana.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "Coconut",
+    "image": "../image/coconut.jpg",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "Grapes",
+    "image": "../image/grapes.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "Lemon",
+    "image": "../image/lemon.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "Lime",
+    "image": "../image/lime.jpg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "Orange",
+    "image": "../image/orange.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "Pineapple",
+    "image": "../image/pineapple",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "Pomergranet",
+    "image": "../image/pomfruit",
+    "clicked": false
+  },
+  {
+    "id": 10,
+    "name": "Strawberry",
+    "image": "../image/strawberry.jpg",
+    "clicked": false
+  },
+  {
+    "id": 11,
+    "name": "Tomato",
+    "image": "../image/tomato.jpg",
+    "clicked": false
+  },
+  {
+    "id": 12,
+    "name": "Ickis",
+    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
+    "clicked": false
+  }
+]
