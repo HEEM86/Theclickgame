@@ -7,6 +7,7 @@ import fruits from "./fruits.json";
 class App extends Component {
   // Setting this.state.fruits to the fruits json array
     state = {
+
       isGuessCorrect: true,
       fruits: fruits,
       score: 0,
@@ -16,17 +17,21 @@ class App extends Component {
     
   }
 
-
-  // saveHandleClick = id => {
-  //   const fruits = this.state.fruits;
-  //   const fruitsClicked = fruits.filter(fruits => fruits.id === id);
-  // }
+  componentDidMount(){
+    
+  }
+  saveHandleClick = id => {
+    console.log("clicked")
+    // let fruits = this.state.fruits;
+    // let fruitsClicked = fruits.filter(fruits => fruits.id === id);
+  }
   // Map over this.state.fruits and render a fruitCard component for each fruit object
   render() {
+    console.log(this.state.fruits[0])
     return () =>  (
       <Wrapper>
         <Title>Fruits List</Title>
-        {fruits.map(({id, name, image, clicked }) => {
+        {this.state.fruits.map(fruits => {
          
           <FruitsCard
           key={fruits.id}
@@ -34,10 +39,10 @@ class App extends Component {
           name={fruits.name}
           image={fruits.image}
           clicked={fruits.clicked}
-          clickHandler={this.saveHandleClick}
+          OnClick={this.saveHandleClick}
           />
-        })}
-       
+        })
+      }
       </Wrapper>
     );
   }
