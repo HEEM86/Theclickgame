@@ -71,6 +71,12 @@ class App extends Component {
   };
 
 
+  clicked = (id) => {
+    console.log("clicked");
+    let fruits = this.state.fruits;
+    let fruitsClicked = fruits.filter(fruits => fruits.id === id);
+  };
+
   render() {
 
     return (
@@ -96,7 +102,7 @@ class App extends Component {
               id={fruit.id}
               name={fruit.name}
               image={fruit.image}
-              clicked={fruit.clicked}
+              clicked={this.clicked}
               />
 
           ))}

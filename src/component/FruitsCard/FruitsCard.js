@@ -9,8 +9,8 @@ const FruitsCard = (props) => {
         <img
           alt={props.name}
           src={props.image}
-          onClick={props.onClick}
-          clicked={props.clicked}
+          onClick={props.clicked}
+          
         />
       </div>
     </div>
