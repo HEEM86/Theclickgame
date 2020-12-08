@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "Apple",
-    "image": "../image/appleimage.jpg",
+    "image": "./image/appleimage.jpg",
     "clicked": false
   },
   {
     "id": 2,
     "name": "Banana",
-    "image": "../image/banana.jpg",
+    "image": "./image/banana.jpg",
     "clicked": false
   },
   {
     "id": 3,
     "name": "Coconut",
-    "image": "../image/coconut.jpg",
+    "image": "./image/coconut.jpg",
     "clicked": false
   },
   {
     "id": 4,
     "name": "Grapes",
-    "image": "../image/grapes.jpg",
+    "image": "./image/grapes.jpg",
     "clicked": false
   },
   {
     "id": 5,
     "name": "Lemon",
-    "image": "../image/lemon.jpg",
+    "image": "./image/lemon.jpg",
     "clicked": false
   },
   {
     "id": 6,
     "name": "Lime",
-    "image": "../image/lime.jpg",
+    "image": "./image/lime.jpg",
     "clicked": false
   },
   {
     "id": 7,
     "name": "Orange",
-    "image": "../image/orange.jpg",
+    "image": "./image/orange.jpg",
     "clicked": false
   },
   {
     "id": 8,
     "name": "Pineapple",
-    "image": "../image/pineapple",
+    "image": "./image/pineapple.jpg",
     "clicked": false
   },
   {
     "id": 9,
     "name": "Pomergranet",
-    "image": "../image/pomfruit",
+    "image": "./image/pomfruit.jpg",
     "clicked": false
   },
   {
     "id": 10,
     "name": "Strawberry",
-    "image": "../image/strawberry.jpg",
+    "image": "./image/strawberry.jpg",
     "clicked": false
   },
   {
     "id": 11,
     "name": "Tomato",
-    "image": "../image/tomato.jpg",
+    "image": "./image/tomato.jpg",
     "clicked": false
   },
   {
     "id": 12,
     "name": "Avacado",
-    "image": "../avacado",
+    "image": "./avacado.jpg",
     "clicked": false
   }
 ]
