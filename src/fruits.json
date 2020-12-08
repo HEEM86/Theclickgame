@@ -68,7 +68,7 @@
   {
     "id": 12,
     "name": "Avacado",
-    "image": "./avacado.jpg",
+    "image": "./image/avocado.jpg",
     "clicked": false
   }
 ]
