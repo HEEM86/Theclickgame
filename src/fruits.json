@@ -67,8 +67,8 @@
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
+    "name": "Avacado",
+    "image": "../avacado",
     "clicked": false
   }
 ]
