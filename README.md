@@ -1,4 +1,4 @@
-# Fruit Game
+# Fruit Game  (Click Game)
 
 ![image info](./public/fruitgame.png)
 
