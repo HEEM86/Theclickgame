@@ -77,7 +77,7 @@ class App extends Component {
   //   let fruitsClicked = fruits.filter(fruits => fruits.id === id);
 
 
-  };
+  
 
  fruitsClicked = (id) => {
     console.log(fruits);
@@ -94,10 +94,25 @@ class App extends Component {
         clicked: false,
       }));
     //checks if current click has been clicked before
+ 
+    if (fruitsClicked.clicked === true) {
+      resetClick (fruits)
     }
+  
+  else{var Apple=this.state.fruits.map(Scan=>{
+    if (Scan.id === id) {
+      return {
+        ...Scan, clicked: true
+      }
+    
 
+    }return Scan;
+  })
 
-
+    this.setState({fruits: shuffleFruits(Apple)})
+  }
+}   
+  
 
   render() {
 
@@ -124,7 +139,7 @@ class App extends Component {
               id={fruit.id}
               name={fruit.name}
               image={fruit.image}
-              clicked={this.clicked}
+              fruitsClicked={this.fruitsClicked}
               />
 
           ))}
@@ -132,8 +147,9 @@ class App extends Component {
 
       </div>
     );
-  }
-  
+  };
+
+
 }
 
 
