@@ -139,6 +139,11 @@ class App extends Component {
             Try not to hit the image twice!
           </p>
         </header>
+        <footer className="App-footer">
+          <p>
+            Fruit Game 2020
+          </p>
+        </footer>
         <Score
           total={this.state.score}
           goal={12}
@@ -154,6 +159,7 @@ class App extends Component {
               image={fruit.image}
               fruitsClicked={this.fruitsClicked}
               />
+              
 
           ))}
         </Wrapper>
