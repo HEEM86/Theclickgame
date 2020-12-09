@@ -19,7 +19,7 @@ Other Technologies used:
 
 ## Video Demo of the Application
 
-Click Here: [FruitGame](https://youtu.be/q9V_K_mfBUE)
+**Click Here** [FruitGame](https://youtu.be/q9V_K_mfBUE)
 
 ## Challenges
 
