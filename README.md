@@ -7,16 +7,15 @@
 
 Fruit Game built with React. 
 
-Player click images, can't click the same image. There are 12 images total. This game takes strategy and good memory to win. 
+The Player clicks images, can't click the same image. There are 12 images total. This game takes strategy and good memory to win. 
 
-If you picked the same card the score will reset to zero
+If you picked the same card the score will reset to zero. GOOD LUCK!
 
 Other Technologies used:
 
 - JavaScript
 - HTML
 - CSS
-
 
 
 ## Challenges
