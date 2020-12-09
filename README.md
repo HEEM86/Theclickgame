@@ -9,6 +9,8 @@ Fruit Game built with React.
 
 Player click images, can't click the same image. There are 12 images total. This game takes strategy and good memory to win. 
 
+If you picked the same card the score will reset to zero
+
 Other Technologies used:
 
 - JavaScript
@@ -17,15 +19,9 @@ Other Technologies used:
 
 
 
-
-
-
 ## Challenges
 
-- I wasn't 
-
-
-
+- I wasn't able to properly put the footer at the bottom. 
 
 
 ## Credits :star:
@@ -42,7 +38,6 @@ Other Technologies used:
 Ernest Wesson :zap:
 
 LinkedIN: https://www.linkedin.com/in/ernest-wesson-b4183b5a/
-
 
 
 
