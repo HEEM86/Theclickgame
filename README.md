@@ -1,5 +1,7 @@
 # Fruit Game
 
+![image info](./public/fruitgame.png)
+
 
 ## Overview :bulb:
 
@@ -13,18 +15,14 @@ Other Technologies used:
 - HTML
 - CSS
 
-**Here's what the app is supposed to look like
-
-![]()
 
 
-**Here's what my app currently looks like
 
 
-![]()
 
+## Challenges
 
-## Conlusion 
+- I wasn't 
 
 
 
