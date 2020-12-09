@@ -81,25 +81,32 @@ class App extends Component {
 
  fruitsClicked = (id) => {
     console.log(fruits);
-    const fruitsClicked = this.state.fruits.filter((fruits) => fruits.id === id);
+    const fruitsClicked = this.state.fruits.find((fruits) => fruits.id === id);
     const shuffleFruits= (fruits) => {
       //shallow copy of the array
       //you do not ever want to modify the state directly
       const copy = fruits.concat();
       return copy.sort(() => Math.random() - 0.5);
     };
-    const resetClick = (list) =>
+    const resetClick = (list) =>{
+      window.location.reload(false);
+      console.log("reset")
       list.map((current) => ({
         ...current,
         clicked: false,
-      }));
+      }))};
     //checks if current click has been clicked before
  
     if (fruitsClicked.clicked === true) {
-      resetClick (fruits)
+      resetClick(fruits)
+      this.setState({
+        score: 0
+      })
+      return;
     }
   
   else{var Apple=this.state.fruits.map(Scan=>{
+    console.log(Scan)
     if (Scan.id === id) {
       return {
         ...Scan, clicked: true
