@@ -109,7 +109,13 @@ class App extends Component {
     }return Scan;
   })
 
-    this.setState({fruits: shuffleFruits(Apple)})
+    this.setState({
+      fruits: shuffleFruits(Apple),
+    score: this.state.score+1
+    }
+    )
+  
+
   }
 }   
   
